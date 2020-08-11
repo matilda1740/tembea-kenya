@@ -11,8 +11,7 @@ export default class DisplayTour extends Component {
 	};
 
 	render() {
-		const { id, place, img, offer, info } = this.props.details;
-		const { moreInfo } = this.props;
+		const { place, img, offer, info } = this.props.details;
 		let Information;
 		// console.log(this.state);
 		if (this.state.showInfo) {
