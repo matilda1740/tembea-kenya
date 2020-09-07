@@ -1,10 +1,8 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-// this just assigns variable names to colors
 
 $mainBlack: #222;
 $mainRed: #dc143c;
@@ -12,6 +10,9 @@ $mainWhite: #fff;
 $mainGrey: #ececec;
 
 body {
-	font-size: larger;
-	font-family: 'Dancing Script', cursive;
+  font-family: "Noto Serif", serif;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
 }
