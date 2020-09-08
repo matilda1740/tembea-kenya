@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       <section className="App">
         <Navbar />
+        <Route exact path="/" component={Tours} />
         <Route path="/tours" component={Tours} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
